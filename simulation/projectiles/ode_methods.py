@@ -1,4 +1,5 @@
 import numpy as np
+import numba
 
 class EulerCromer:
     def __init__(self):
