@@ -12,6 +12,8 @@ DROP TABLE CRAFT_WEAPON;
 
 set FOREIGN_KEY_CHECKS = 1;
 
+-- TODO: used auto-incremented keys for uuid
+
 -- create entity tables
 CREATE TABLE RESOURCE(
     uuid INT(20) PRIMARY KEY,
